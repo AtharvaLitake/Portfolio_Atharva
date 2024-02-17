@@ -90,7 +90,7 @@ const Experience = () => {
           </p>
           <p className="py-6">This is the technologies I have worked with</p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-7 sm:px-0">
           {techstack.map(({ id, src,desc,style }) => (
             <div key={id} className={`shadow-md py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className=" w-32 mx-auto" />
