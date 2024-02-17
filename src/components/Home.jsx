@@ -16,7 +16,7 @@ const Home = () => {
             towards front end development .
           </p>
           <div>
-            <button className="text-white text-1.5xl w-fit px-6 py-4 my-2 flex items-center rounded-md bg-blue-400">
+            <button className="text-white text-1.5xl w-fit px-6 py-4 my-2 flex items-center rounded-md bg-blue-400  hover:bg-blue-700 duration-300">
               Portfolio{" "}
               <span className="hover:rotate-90 transform">
                 <MdOutlineKeyboardArrowRight size={22} className="ml-1"/>
