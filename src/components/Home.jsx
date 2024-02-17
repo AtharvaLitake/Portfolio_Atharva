@@ -9,7 +9,7 @@ const Home = () => {
       md:flex-row text-white"
       >
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold">I'm a Full Stack Developer</h2>
+          <h2 className="text-4xl sm:text-7xl font-bold mt-44 md:mt-0">I'm a Full Stack Developer</h2>
           <p className="text-gray-500 py-4 max-w-md text-lg">
             I am a third year undergrad student at Pune Institute of computer. I
             have fascination towards full stack development and I am passionate
@@ -25,7 +25,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={portfolio_atharva} alt="my_image" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+          <img src={portfolio_atharva} alt="my_image" className="rounded-2xl mx-auto w-2/3 mb-16 mt-5 md:w-full"/>
         </div>
       </div>
     </div>
