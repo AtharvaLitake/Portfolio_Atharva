@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-full bg-gray-950 text-white">
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto md:h-full py-0 md:py-16">
+    <div name="about" className="w-full h-full bg-gray-950 text-white py-12">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto md:h-full py-12 md:py-24">
         <div className="mt-5">
           <h2 className="text-4xl font-bold inline border-b-4 border-white ">About</h2>
         </div>
-        <p className="text-sm md:text-xl mt-10">
+        <p className="text-sm ml-2 md:text-xl md:ml-0 mt-10">
           Currently pursuing my undergrad at Pune Institute of computer
           technology in Computer engineering branch. I am a third year student
           having an aggregate cgpa of 9.69 , currently being the topper of the
@@ -18,7 +18,7 @@ const About = () => {
           creating many end to end project using langchain and llms.
         </p>
         <br />
-        <p className="text-sm md:text-xl">
+        <p className="text-sm ml-2 md:text-xl md:ml-0">
           I have participated in many hackathons and won many of them too. I
           have been working towards the ui/ux part of the websites and have
           successfully completed project in the same . Recently , i am

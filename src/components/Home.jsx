@@ -10,7 +10,7 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold md:mt-0">I'm a Full Stack Developer</h2>
-          <p className="text-gray-500 py-4 max-w-md text-lg">
+          <p className="text-gray-500 py-4 max-w-md text-lg ml-2 md:ml-0">
             I am a third year undergrad student at Pune Institute of computer. I
             have fascination towards full stack development and I am passionate
             towards front end development .
