@@ -49,7 +49,7 @@ function Navbar() {
           onClick={() => setNav(!nav)}
           className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
         >
-          {nav ? <FaTimes size={30}></FaTimes> : <FaBars size={30}></FaBars>}
+        {nav ? <FaTimes size={30}></FaTimes> : <FaBars size={30}></FaBars>}
         </div>
 
         {nav && (
@@ -62,7 +62,7 @@ function Navbar() {
                 key={id}
                 className="px-4 capitalize py-6 cursor-pointer text-4xl"
               >
-                <Link to={link} smooth duration={500}>{link}</Link> 
+                <Link to={link} smooth duration={500} onClick={() => setNav(!nav)}>{link}</Link> 
               </li>
             ))}
           </ul>
