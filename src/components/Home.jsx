@@ -3,7 +3,7 @@ import portfolio_atharva from "../assets/portfolio img.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
   return (
-    <div name="home" className="h-auto w-full bg-gray-950 md:h-screen pt-24 pb-10">
+    <div name="home" className="h-auto w-full bg-gray-950 md:h-screen pt-24 md:pt-0 pb-10">
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 
       md:flex-row text-white"
